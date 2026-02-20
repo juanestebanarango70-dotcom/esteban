@@ -1,0 +1,67 @@
+<Proceso nombre="Gestion_Financiera_y_Contable">
+
+    <InformacionGeneral>
+        <Responsable>Vicepresidencia Financiera</Responsable>
+        <Objetivo>Control contable y fiscal</Objetivo>
+        <Alcance>Contabilidad e impuestos</Alcance>
+        <Proveedores>Bancos</Proveedores>
+        <Recursos>Software contable</Recursos>
+        <Controles>Auditorías</Controles>
+    </InformacionGeneral>
+
+    <Inicio>
+        <Descripcion>Recepción de facturas</Descripcion>
+        <Entradas>Facturas</Entradas>
+    </Inicio>
+
+    <Actividad id="1">
+        <Nombre>Registrar operaciones contables</Nombre>
+        <Procedimiento>Registro en sistema contable</Procedimiento>
+    </Actividad>
+
+    <Decision id="2">
+        <Pregunta>¿Los registros contables son correctos?</Pregunta>
+
+        <Si>
+            <Actividad id="3">
+                <Nombre>Realizar conciliaciones bancarias</Nombre>
+                <Procedimiento>Validación con bancos</Procedimiento>
+            </Actividad>
+        </Si>
+
+        <No>
+            <Actividad id="4">
+                <Nombre>Corregir inconsistencias</Nombre>
+                <Procedimiento>Ajuste de registros</Procedimiento>
+                <Retorno>Registrar operaciones contables</Retorno>
+            </Actividad>
+        </No>
+
+    </Decision>
+
+    <Decision id="5">
+        <Pregunta>¿Cumple con normativa fiscal y contable?</Pregunta>
+
+        <Si>
+            <Actividad id="6">
+                <Nombre>Elaborar estados financieros</Nombre>
+                <Salidas>EEFF</Salidas>
+            </Actividad>
+        </Si>
+
+        <No>
+            <Actividad id="7">
+                <Nombre>Aplicar ajustes y revisión fiscal</Nombre>
+                <Controles>Auditorías</Controles>
+                <Retorno>Realizar conciliaciones bancarias</Retorno>
+            </Actividad>
+        </No>
+
+    </Decision>
+
+    <Fin>
+        <Resultado>Información financiera validada</Resultado>
+        <Clientes>Dirección</Clientes>
+    </Fin>
+
+</Proceso>
