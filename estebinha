@@ -1,88 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net">
-  <diagram name="Gestion TI">
-    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1">
+  <diagram name="Flowchart">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
 
-        <!-- Inicio -->
-        <mxCell id="2" value="Inicio: Gestión de TI" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="300" y="20" width="240" height="60" as="geometry"/>
+        <!-- Start -->
+        <mxCell id="start" value="START&#10;Begin the process" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="120" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- Entrada -->
-        <mxCell id="3" value="Entrada: Requerimientos de áreas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="300" y="110" width="240" height="60" as="geometry"/>
+        <!-- Step 1 -->
+        <mxCell id="s1" value="First: Open the learning platform" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="220" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- Evaluar requerimiento -->
-        <mxCell id="4" value="Evaluar requerimiento tecnológico" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="200" width="240" height="60" as="geometry"/>
+        <!-- Step 2 -->
+        <mxCell id="s2" value="Second: Log in with username and password" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="220" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- Decision validez -->
-        <mxCell id="5" value="¿Requerimiento válido?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="300" y="290" width="240" height="80" as="geometry"/>
+        <!-- Decision -->
+        <mxCell id="d1" value="Third: Are the login credentials correct?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="180" height="100" as="geometry"/>
         </mxCell>
 
-        <!-- No valido -->
-        <mxCell id="6" value="Solicitar ajuste al área solicitante" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="300" width="230" height="60" as="geometry"/>
+        <!-- Step 3 -->
+        <mxCell id="s3" value="Fourth: Select the course" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="470" width="220" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- Soporte mantenimiento -->
-        <mxCell id="7" value="Implementar solución, mantenimiento y backups" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="410" width="240" height="60" as="geometry"/>
+        <!-- Step 4 -->
+        <mxCell id="s4" value="Fifth: Open the assignment section" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="570" width="220" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- Decision sistema -->
-        <mxCell id="8" value="¿Sistema operativo y seguro?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="300" y="500" width="240" height="80" as="geometry"/>
+        <!-- Step 5 -->
+        <mxCell id="s5" value="Sixth: Upload the assignment file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="670" width="220" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- Correccion -->
-        <mxCell id="9" value="Aplicar corrección y reforzar ciberseguridad" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="510" width="230" height="60" as="geometry"/>
+        <!-- Decision 2 -->
+        <mxCell id="d2" value="Seventh: Is the file format valid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="770" width="180" height="100" as="geometry"/>
         </mxCell>
 
-        <!-- Control -->
-        <mxCell id="10" value="Control: SLA y ciberseguridad" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="300" y="620" width="240" height="60" as="geometry"/>
+        <!-- Step 6 -->
+        <mxCell id="s6" value="Eighth: Confirm submission" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="920" width="220" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- Salida -->
-        <mxCell id="11" value="Salida: Sistemas operativos disponibles" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="300" y="710" width="240" height="60" as="geometry"/>
+        <!-- End -->
+        <mxCell id="end" value="END&#10;Assignment successfully submitted" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1030" width="120" height="60" as="geometry"/>
         </mxCell>
-
-        <!-- Fin -->
-        <mxCell id="12" value="Fin" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="340" y="800" width="160" height="60" as="geometry"/>
-        </mxCell>
-
-        <!-- Conexiones -->
-        <mxCell id="13" style="endArrow=block;" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="14" style="endArrow=block;" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="15" style="endArrow=block;" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
-
-        <!-- NO -->
-        <mxCell id="16" value="NO" style="endArrow=block;" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="17" style="endArrow=block;" edge="1" parent="1" source="6" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
-
-        <!-- SI -->
-        <mxCell id="18" value="SI" style="endArrow=block;" edge="1" parent="1" source="5" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
-
-        <mxCell id="19" style="endArrow=block;" edge="1" parent="1" source="7" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
-
-        <!-- NO -->
-        <mxCell id="20" value="NO" style="endArrow=block;" edge="1" parent="1" source="8" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="21" style="endArrow=block;" edge="1" parent="1" source="9" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
-
-        <!-- SI -->
-        <mxCell id="22" value="SI" style="endArrow=block;" edge="1" parent="1" source="8" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
-
-        <mxCell id="23" style="endArrow=block;" edge="1" parent="1" source="10" target="11"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="24" style="endArrow=block;" edge="1" parent="1" source="11" target="12"><mxGeometry relative="1" as="geometry"/></mxCell>
 
       </root>
     </mxGraphModel>
