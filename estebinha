@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net">
-  <diagram name="Flowchart">
+  <diagram name="Flujograma">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
 
-        <!-- Start -->
-        <mxCell id="start" value="START&#10;Begin the process" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <!-- Inicio -->
+        <mxCell id="start" value="INICIO&#10;Comienza el proceso" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="20" width="120" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- Step 1 -->
-        <mxCell id="s1" value="First: Open the learning platform" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <!-- Paso 1 -->
+        <mxCell id="s1" value="Primero: Abrir la plataforma de aprendizaje" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="120" width="220" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- Step 2 -->
-        <mxCell id="s2" value="Second: Log in with username and password" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <!-- Paso 2 -->
+        <mxCell id="s2" value="Segundo: Iniciar sesión con usuario y contraseña" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="220" width="220" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- Decision -->
-        <mxCell id="d1" value="Third: Are the login credentials correct?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <!-- Decisión -->
+        <mxCell id="d1" value="Tercero: ¿Las credenciales son correctas?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="320" width="180" height="100" as="geometry"/>
         </mxCell>
 
-        <!-- Step 3 -->
-        <mxCell id="s3" value="Fourth: Select the course" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <!-- Paso 3 -->
+        <mxCell id="s3" value="Cuarto: Seleccionar el curso" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="470" width="220" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- Step 4 -->
-        <mxCell id="s4" value="Fifth: Open the assignment section" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <!-- Paso 4 -->
+        <mxCell id="s4" value="Quinto: Abrir la sección de actividades" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="570" width="220" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- Step 5 -->
-        <mxCell id="s5" value="Sixth: Upload the assignment file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <!-- Paso 5 -->
+        <mxCell id="s5" value="Sexto: Subir el archivo de la actividad" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="670" width="220" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- Decision 2 -->
-        <mxCell id="d2" value="Seventh: Is the file format valid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <!-- Decisión 2 -->
+        <mxCell id="d2" value="Séptimo: ¿El formato del archivo es válido?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="770" width="180" height="100" as="geometry"/>
         </mxCell>
 
-        <!-- Step 6 -->
-        <mxCell id="s6" value="Eighth: Confirm submission" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <!-- Paso 6 -->
+        <mxCell id="s6" value="Octavo: Confirmar el envío de la actividad" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="920" width="220" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- End -->
-        <mxCell id="end" value="END&#10;Assignment successfully submitted" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <!-- Fin -->
+        <mxCell id="end" value="FIN&#10;Actividad enviada correctamente" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="1030" width="120" height="60" as="geometry"/>
         </mxCell>
 
